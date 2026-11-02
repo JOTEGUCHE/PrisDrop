@@ -12,8 +12,7 @@ pythonw main.py
 En Windows también puedes abrir `main.py` directamente: la consola se oculta al iniciarse desde el Explorador.
 Si lo ejecutas desde una terminal ya abierta, esta se mantiene visible. Requiere Python 3.10+.
 La primera vez descarga yt-dlp, FFmpeg (~100 MB) y Deno a
-`%APPDATA%\PrisDrop\bin`. Si ya tenías Descargatube instalado, la carpeta de datos se migra
-automáticamente a PrisDrop al iniciar.
+`%APPDATA%\PrisDrop\bin`.
 
 ## Novedades de la V2
 
@@ -60,8 +59,8 @@ automáticamente a PrisDrop al iniciar.
 - **Páginas**: sección nueva. Pega un enlace web arriba → «Agregar a páginas» → aparece un cuadro; al
   pulsarlo se abre la página dentro de la app. «← Páginas» vuelve. Clic derecho en un cuadro: renombrar/quitar.
 - **Capa «Cargando, espera por favor…»**: bloquea la app solo si una acción tarda más de 1 segundo.
-- **Error «Sign in to confirm you're not a bot»**: en **Ajustes → Navegador con tu sesión de YouTube**
-  elige el navegador donde tienes YouTube con tu cuenta (Firefox recomendado).
+- **Error «Sign in to confirm you're not a bot»**: en **Ajustes → Navegador con tu sesión de YT**
+  elige el navegador donde tienes YT con tu cuenta (Firefox recomendado).
 
 ## Uso
 
@@ -74,9 +73,6 @@ automáticamente a PrisDrop al iniciar.
    tema integrado que quieras conservar; exporta como ZIP para incluir sus imágenes e iconos.
 
 Por defecto, PrisDrop guarda videos en `~/PrisDrop/Videos` y audio en `~/PrisDrop/Musica`.
-Si la configuración anterior apuntaba a las carpetas predeterminadas de `~/Descargatube`,
-se actualizará a las nuevas rutas; la biblioteca seguirá incluyendo medios que aún permanezcan
-en las carpetas antiguas.
 
 ## Botón «Actualizar yt-dlp»
 
