@@ -1,7 +1,6 @@
 # PrisDrop
 
-Descargador de videos y música de YouTube con interfaz estilo YouTube, reproductor multimedia
-integrado y accesos directos a páginas web. Usa **yt-dlp**, **FFmpeg** y **Deno** (se descargan solos).
+PrisDrop es una herramienta gratuita y de código abierto diseñada para la gestión, reproducción y descarga de contenido multimedia. Ofrece una interfaz altamente personalizable mediante temas visuales y actúa como una interfaz gráfica para motores y bibliotecas de procesamiento estándar en la industria. Usa **yt-dlp**, **FFmpeg** y **Deno** (se descargan solos).
 
 ## Ejecutar
 
