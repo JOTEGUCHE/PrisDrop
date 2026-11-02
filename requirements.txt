@@ -1,0 +1,5 @@
+PySide6>=6.8
+mutagen>=1.47
+pyinstaller>=6.0   # solo si quieres generar el .exe
+winrt-Windows.Media.Interop>=3.1; sys_platform == "win32"
+winrt-Windows.Storage>=4!10.0.28000.2705; sys_platform == "win32"
